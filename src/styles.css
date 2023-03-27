@@ -147,8 +147,20 @@ form.create-note button {
 	align-items: center;
 }
 
+@media only screen and (max-width: 768px) {
+	header h1 {
+		color: #fff;
+		font-family: "Roboto", sans-serif, "McLaren", cursive;
+		font-weight: 200;
+	}
+}
 @media only screen and (max-width: 480px) {
 	.header-icons {
 		font-size: medium;
+	}
+	header {
+		display: flex;
+		justify-content: center;
+		align-items: center;
 	}
 }
