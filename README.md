@@ -15,6 +15,8 @@
     The <b>Keeper App</b> starter template.
 </p>
 
+![keeper-app](https://user-images.githubusercontent.com/85361115/228081600-531fad21-5c68-4926-b19b-4f97146990e9.png)
+
 ## Folder Structure
 
 No configuration or complicated folder structures, just the files you need to build your app:
