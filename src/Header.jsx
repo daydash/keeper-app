@@ -1,5 +1,4 @@
 import React from "react";
-// import HighlightIcon from "@material-ui/icons/Highlight";
 import HighlightIcon from "@mui/icons-material/Highlight";
 import InvertColorsIcon from "@mui/icons-material/InvertColors";
 import ColorLensIcon from "@mui/icons-material/ColorLens";
