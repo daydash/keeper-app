@@ -147,28 +147,8 @@ form.create-note button {
 	align-items: center;
 }
 
-/* @media only screen and (max-width: 480px) {
+@media only screen and (max-width: 480px) {
 	.header-icons {
 		font-size: medium;
 	}
-} */
-
-header div {
-	position: relative;
-	display: flex;
-}
-
-header div button {
-	background-color: #f5ba13;
-	border-style: none;
-}
-
-header div input {
-	cursor: pointer;
-	opacity: 0;
-	position: absolute;
-	left: 0;
-	top: 0;
-	width: 38px;
-	height: 42px;
 }
