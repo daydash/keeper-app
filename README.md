@@ -20,7 +20,7 @@
 ## Live Demo
 
 Here's a live demo.<br>
-Netlify : [https://daydash-keeper-app.netlify.app/](https://daydash-keeper-app.netlify.app/)
+Netlify : [https://daydash-keeper-app.netlify.app](https://daydash-keeper-app.netlify.app)
 
 ## Folder Structure
 
