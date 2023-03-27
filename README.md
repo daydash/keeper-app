@@ -6,7 +6,7 @@
   <a href="https://github.com/daydash/keeper-app/releases">
     <img src="https://img.shields.io/github/v/release/daydash/keeper-app" alt="GitHub Release (latest by date)" />
   </a>
-  <a href="https://github.com/daydash/keeper-app/blob/main/LICENSE">
+  <a href="https://github.com/daydash/keeper-app/blob/master/LICENSE">
     <img src="https://img.shields.io/github/license/daydash/keeper-app" alt="License" />
   </a>
 </p>
@@ -17,9 +17,14 @@
 
 ![keeper-app](https://user-images.githubusercontent.com/85361115/228081600-531fad21-5c68-4926-b19b-4f97146990e9.png)
 
+## Live Demo
+
+Here's a live demo.<br>
+Netlify : [https://daydash-keeper-app.netlify.app/](https://daydash-keeper-app.netlify.app/)
+
 ## Folder Structure
 
-No configuration or complicated folder structures, just the files you need to build your app:
+No configuration or complicated folder structures, just the files you need to build the app:
 
 ```
 keeper-app
