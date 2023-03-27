@@ -1,0 +1,155 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+html {
+	font-family: "Montserrat", sans-serif;
+}
+body {
+	background: #eee;
+	background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
+	padding: 0 16px;
+	overflow-x: hidden;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: fixed;
+	/* z-index: 100; */
+	width: 100vw;
+
+	background-color: #f5ba13;
+	margin: 0 -16px;
+	padding: 16px 32px;
+	box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+header h1 {
+	color: #fff;
+	font-family: "McLaren", cursive;
+	font-weight: 200;
+}
+
+footer {
+	position: fixed;
+	text-align: center;
+	bottom: 0;
+	width: 100%;
+	height: 2.5rem;
+}
+
+footer p {
+	color: #ccc;
+}
+
+footer > div {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+footer p strong {
+	text-decoration: none;
+	color: #b3b1b1;
+	margin: 0 4px;
+}
+
+.notes-card {
+	/* display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	flex-wrap: wrap; */
+	display: grid;
+	grid-gap: 5px;
+	grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+	grid-auto-flow: dense;
+}
+
+.note {
+	background: #fff;
+	border-radius: 7px;
+	box-shadow: 0 2px 5px #ccc;
+	padding: 10px;
+	width: 240px;
+	margin: 16px;
+	float: left;
+}
+.note h1 {
+	font-size: 1.1em;
+	margin-bottom: 6px;
+}
+.note p {
+	font-size: 1.1em;
+	margin-bottom: 10px;
+	white-space: pre-wrap;
+	word-wrap: break-word;
+}
+
+/* .note div {
+	display: flex;
+	justify-content: flex-end;
+	align-items: end;
+} */
+
+.note button {
+	position: relative;
+	float: right;
+	margin-right: 10px;
+	color: #f5ba13;
+	border: none;
+	width: 36px;
+	height: 36px;
+	cursor: pointer;
+	outline: none;
+}
+
+form.create-note {
+	position: relative;
+	width: 480px;
+	/* max-width: fit-content; */
+	margin: 100px auto 20px auto;
+	background: #fff;
+	padding: 15px;
+	border-radius: 7px;
+	box-shadow: 0 1px 5px rgb(138, 137, 137);
+}
+form.create-note input,
+form.create-note textarea {
+	width: 100%;
+	border: none;
+	padding: 4px;
+	outline: none;
+	font-size: 1.2em;
+	font-family: inherit;
+	resize: none;
+}
+form.create-note button {
+	position: absolute;
+	right: 18px;
+	bottom: -18px;
+	background: #f5ba13;
+	color: #fff;
+	border: none;
+	border-radius: 50%;
+	width: 36px;
+	height: 36px;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+	cursor: pointer;
+	outline: none;
+}
+
+.create-note-wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+@media only screen and (max-width: 480px) {
+	.header-icons {
+		font-size: medium;
+	}
+}
+
